@@ -3,7 +3,25 @@
   "version": "1.0.0",
   "module": "index.ts",
   "type": "module",
-  "private": true,
+  "author": {
+    "name": "Pratyush Poddar",
+    "email": "wrick17@gmail.com"
+  },
+  "license": "MIT",
+  "private": false,
+  "homepage": "https://github.com/wrick17/biome-json-to-checkstyle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wrick17/biome-json-to-checkstyle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wrick17/biome-json-to-checkstyle/issues"
+  },
+  "keywords": [
+    "biome",
+    "json",
+    "checkstyle"
+  ],
   "scripts": {
     "start": "bun --watch index.ts",
     "build": "bun build index.ts --outdir dist --target node"

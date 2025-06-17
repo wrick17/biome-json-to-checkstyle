@@ -35,7 +35,7 @@ async function biomeJsonToCheckstyle(inputFile, outputFile) {
   xml += "</checkstyle>";
   await fs.writeFile(outputFile, xml, "utf8");
 }
-var json_to_checkstyle_default = biomeJsonToCheckstyle;
+var biome_json_to_checkstyle_default = biomeJsonToCheckstyle;
 if (__require.main == __require.module || import.meta && __require.main == __require.module) {
   const args = process.argv.slice(2);
   if (args.length !== 2) {
@@ -56,5 +56,5 @@ if (__require.main == __require.module || import.meta && __require.main == __req
   });
 }
 export {
-  json_to_checkstyle_default as default
+  biome_json_to_checkstyle_default as default
 };
